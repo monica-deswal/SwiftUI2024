@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271084C32B3DEC860095C4A8 /* RegexBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271084C22B3DEC860095C4A8 /* RegexBuilder.swift */; };
 		27A2721F2B32E46B00848409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A2721E2B32E46B00848409 /* AppDelegate.swift */; };
 		27A272212B32E46B00848409 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A272202B32E46B00848409 /* SceneDelegate.swift */; };
 		27A272232B32E46B00848409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A272222B32E46B00848409 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271084C22B3DEC860095C4A8 /* RegexBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexBuilder.swift; sourceTree = "<group>"; };
 		27A2721B2B32E46B00848409 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A2721E2B32E46B00848409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A272202B32E46B00848409 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				27A272272B32E46D00848409 /* Assets.xcassets */,
 				27A272292B32E46D00848409 /* LaunchScreen.storyboard */,
 				27A2722C2B32E46D00848409 /* Info.plist */,
+				271084C22B3DEC860095C4A8 /* RegexBuilder.swift */,
 			);
 			path = LearnSwiftUI;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				27A272232B32E46B00848409 /* ViewController.swift in Sources */,
 				27A2721F2B32E46B00848409 /* AppDelegate.swift in Sources */,
 				27A272212B32E46B00848409 /* SceneDelegate.swift in Sources */,
+				271084C32B3DEC860095C4A8 /* RegexBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
