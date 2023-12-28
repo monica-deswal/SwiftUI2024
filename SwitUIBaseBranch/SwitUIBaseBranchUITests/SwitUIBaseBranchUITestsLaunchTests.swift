@@ -1,13 +1,13 @@
 //
-//  LearnSwiftUIUITestsLaunchTests.swift
-//  LearnSwiftUIUITests
+//  SwitUIBaseBranchUITestsLaunchTests.swift
+//  SwitUIBaseBranchUITests
 //
-//  Created by Monica Deshwal on 20/12/23.
+//  Created by Monica Deshwal on 29/12/23.
 //
 
 import XCTest
 
-final class LearnSwiftUIUITestsLaunchTests: XCTestCase {
+final class SwitUIBaseBranchUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

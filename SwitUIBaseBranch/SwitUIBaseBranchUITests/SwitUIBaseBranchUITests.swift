@@ -1,13 +1,13 @@
 //
-//  LearnSwiftUIUITests.swift
-//  LearnSwiftUIUITests
+//  SwitUIBaseBranchUITests.swift
+//  SwitUIBaseBranchUITests
 //
-//  Created by Monica Deshwal on 20/12/23.
+//  Created by Monica Deshwal on 29/12/23.
 //
 
 import XCTest
 
-final class LearnSwiftUIUITests: XCTestCase {
+final class SwitUIBaseBranchUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
