@@ -8,14 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var title: String = "Default Title"
+    @State private var titleInput: String = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+           HeaderView(title: title
+                      , titleInput: $titleInput)
+            Button(action: {
+                title = titleInput
+                titleInput = ""
+            }, label: {
+                Text("Button")
+            })
+            Spacer()
+        }.padding()
+    }
+}
+
+struct HeaderView: View {
+    var title: String
+    @Binding var titleInput: String
+    
+    var body: some View {
+        VStack {
+            Text(title)
+                .padding(10)
+            TextField("Insert Title", text: $titleInput)
+                .textFieldStyle(.roundedBorder)
         }
-        .padding()
     }
 }
 
