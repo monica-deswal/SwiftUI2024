@@ -58,6 +58,9 @@ struct ContentView: View {
             .background(.purple)
         Spacer()
             
+        ProgressView()
+            .progressViewStyle(.circular)
+        
     }
     
     func generateTheToggle() -> some View {
