@@ -49,6 +49,15 @@ struct ContentView: View {
                    , step: 1.0, onEditingChanged: { self.textActive = $0})
             Spacer()
         }.padding()
+        
+        VStack {
+            ProgressView(value: currentValue, total: 10)
+            Slider(value: $currentValue, in: 0...10)
+            Spacer()
+        }.padding()
+            .background(.purple)
+        Spacer()
+            
     }
     
     func generateTheToggle() -> some View {
